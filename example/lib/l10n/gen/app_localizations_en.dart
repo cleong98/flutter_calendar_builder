@@ -6,4 +6,12 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get appTitle => 'Flutter Calendar Builder Demo';
+
+  @override
+  String appVersion(String version) {
+    return 'Version: $version';
+  }
+
+  @override
+  String get appVersionUnknown => 'unknown';
 }

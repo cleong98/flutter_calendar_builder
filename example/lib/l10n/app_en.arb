@@ -1,4 +1,14 @@
 {
   "@@locale": "en",
-  "appTitle": "Flutter Calendar Builder Demo"
+  "appTitle": "Flutter Calendar Builder Demo",
+  "appVersion": "Version: {version}",
+  "@appVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String",
+        "example": "0.0.0"
+      }
+    }
+  },
+  "appVersionUnknown":"unknown"
 }

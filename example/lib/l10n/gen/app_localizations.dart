@@ -98,6 +98,18 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Flutter Calendar Builder Demo'**
   String get appTitle;
+
+  /// No description provided for @appVersion.
+  ///
+  /// In en, this message translates to:
+  /// **'Version: {version}'**
+  String appVersion(String version);
+
+  /// No description provided for @appVersionUnknown.
+  ///
+  /// In en, this message translates to:
+  /// **'unknown'**
+  String get appVersionUnknown;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {
